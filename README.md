@@ -1,1 +1,11 @@
-# assignment-1--data-exploration
+SUM - Used to calculate the total price of all products. Formula =SUM(D2:D35)
+COUNT - Used to calculate the total number of products.   Formula =COUNTA(B2:B35)
+AVERAGE- Used to calculate the average price of all products. Formula =AVERAGE(D2:D35)
+MIN - Used to find the minimum price among all products. Formula =MIN(D2:D35)
+MAX - Used to find the maximum price among all products.  Formula =MAX(D2:D35)
+IF Function - Used to categorize products, price greater than or equal to 500, "High Price" and price less than 500, Standard Price. Formula =IF(D2>=500,"High Price","Standard Price")
+SUM IF- Used to calculate the total price of products in the "Electonics" category. Formula =SUMIF(F2:F35,"Electronics",D2:D35)
+COUNTIF - Used to count the products with a price less than 100. Formula =COUNTIF(D2:D35,"<100")
+LEFT-Day - Extracted the first two characters from Product ID. Formula =LEFT(A2,2)
+RIGHT - Country Code - Extracted the last two characters from Product ID. Formula =RIGHT(A2,2)
+MID - Month - Extracted the 4th to 6th characters from Product ID. Formula =MID(A2,4,3)
